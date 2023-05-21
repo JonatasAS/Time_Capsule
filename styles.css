@@ -41,6 +41,11 @@ body {
   grid-template-areas: "profile timeline";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 100vh;
+
+  > a {
+    color: #eaeaea;
+    text-decoration:  none;
+  }
 }
 
 nav {
@@ -112,6 +117,16 @@ aside {
   background-position: top right;
   background-repeat: no-repeat;
   background-size: auto 100%;
+}
+
+aside a img {
+  width: 40px;
+  height: 40px;
+  
+}
+
+.linksSocialNetworks a{
+  padding-left: 25px;
 }
 
 aside * {
